@@ -53,6 +53,7 @@ a {
     .nav-linkimg{
         border-radius:10%;
         border: 2px solid rgb(255, 255, 255);
+        text-align: center;
         
     }
     .nav-link{
@@ -155,30 +156,46 @@ section {
 /*ventanas*/
 .ventana{
     background:rgb(34, 44, 100);
-    width: 70%;
-    height: 70%;
-    color:rgb(109, 67, 67);
+    width: 75%;
+    height: 90%;
+    color:rgb(255, 255, 255);
     font-size: 18px;
-    text-align: center;
-    padding: 33px;
+  
+    padding: 1% 5%;
     border-radius: 5%;
     position: fixed;
     left: 15%;
     z-index: 3;
-    top:20% ;
+    top:5% ;
+    left: 15%;
     display: none;
 }
 #cerrar{
+    
     color: white;
+    top:0%;
     
 }
 
+.btn-pago{
+    display: inline-flex;
+    
+}
+.btn-pago:hover{
+   
+    border-radius:4%;
+    border: 2px solid chartreuse;
+   
+}
 
-
-
-
-
-
+.letras-pago{
+    list-style:none
+   
+}
+.costo{
+    color:rgb(172, 158, 158);
+    font-size: 40px;
+}
 
 
 
@@ -187,9 +204,10 @@ section {
     list-style: none;
 }
 .btn-info{
-    font-size: 200%;
+    font-size: 250%;
     padding: 2% 3%;
-    color: rgb(23, 0, 228);
+    color: rgb(34, 27, 95);
+    background: chartreuse;
     border-radius:4%;
     border: 2px solid rgb(204, 200, 193);
     box-shadow:5px 5px 5px rgb(106, 150, 163);
@@ -203,10 +221,10 @@ section {
   }
   
   .button {
-    min-width: 300px;
-    min-height: 60px;
+    min-width: 400px;
+    min-height: 100px;
     font-family: 'bold','Nunito', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
@@ -226,8 +244,8 @@ section {
   button::before {
   content: '';
     border-radius: 1000px;
-    min-width: calc(300px + 12px);
-    min-height: calc(60px + 12px);
+    min-width: calc(400px + 12px);
+    min-height: calc(100px + 12px);
     border: 6px solid #00FFCB;
     box-shadow: 0 0 60px rgba(0,255,203,.64);
     position: absolute;
@@ -300,7 +318,9 @@ section {
 /* //////////////
    Portfolio
 //////////////*/
-
+img{
+    text-align: center;
+}
 .row{
     display: flex;
 }
