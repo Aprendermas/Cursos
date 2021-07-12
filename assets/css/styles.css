@@ -150,6 +150,55 @@ section {
 .navbar-toggler { font-size: 40px; }
 .navbar-toggler:focus { outline: none; }
 
+
+
+/*deAprender++*/
+.cont-aprender{
+    background-color: #dfdfeb;
+    text-align: center;
+    color: #313133;
+}
+
+.main-aprender{
+ text-align: center;
+ font-size: 190%;
+ 
+ 
+}
+.content-centerimg{
+    text-align: center;
+   
+}
+.img-aprender{
+    border: 3px solid #66ff00;
+    padding: 0%;
+    border-radius: 5%;
+    top: 0%;
+}
+.img-aprender:hover{
+    border: 3px solid #00eeff;
+}
+.deprender-txt{
+    margin: 3% 20%;
+  color: rgb(17, 50, 158);
+  font-size: 130%;
+    
+}
+
+
+/*mas botones de info y version*/
+
+.mas-btns{
+    text-align: center;
+    margin: 0% 13%;
+
+}
+
+
+
+
+
+
 /*ventanas*/
 .ventana{
     background:rgb(34, 44, 100);
@@ -200,10 +249,11 @@ section {
 /*IO*/
 .botonl{
     list-style: none;
+    
 }
 .btn-info{
-    font-size: 250%;
-    padding: 2% 3%;
+    font-size: 200%;
+    padding: 1% 1%;
     color: rgb(34, 27, 95);
     background: chartreuse;
     border-radius:4%;
