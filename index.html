@@ -21,10 +21,81 @@
 <body>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--info detodo-->
+
+<div class="ventana" id="venttodo">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrartodo()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/50 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Incluye:</li>
+      <li>>Video de cada tema de los cursos</li>
+      <li>>Teoria de cada tema de los cursos</li>
+      <li>>Practica de cada tema de los cursos</li>
+      <li>>Solucionario explicado de practicas de los cursos</li>
+      <li>>Todo lo incluido en cada tema</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+
+
+
+
+   
+        
+
+
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="LUZFCM8W7MUQG">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirtodo(){
+      document.getElementById("venttodo").style.display="block";
+  }
+  function cerrartodo(){
+      document.getElementById("venttodo").style.display="none";
+  }
+</script>
+
+
+
+
   <!--info rm-->
 
-  <div class="ventana" id="vent">
-      <div id="cerrar"><a href="javascript:cerrar()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <div class="ventana" id="ventrm">
+      <div id="cerrar" class="cerrar"><a href="javascript:cerrarrm()"><img src="assets/images/cerrar.png" width="9%"></a></div>
     <p class="incluye"></p>
     <ul class="letras-pago">
         <li class="costo">S/10 al mes</li>
@@ -32,7 +103,7 @@
         <li>Pago mensual</li>
         <br>
    
-        <li>-cada tema del curso Incluye:</li>
+        <li>Cada tema del curso Incluye:</li>
         <li>>Video de cada tema</li>
         <li>>Teoria de cada tema</li>
         <li>>Practica de cada tema</li>
@@ -48,25 +119,701 @@
             <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
             
             <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
-            <a href=""><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+            <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
         </form>
        
     </div>
 </div>
 
-
-
-
-
-
 <script>
-    function abrir(){
-        document.getElementById("vent").style.display="block";
+    function abrirrm(){
+        document.getElementById("ventrm").style.display="block";
     }
-    function cerrar(){
-        document.getElementById("vent").style.display="none";
+    function cerrarrm(){
+        document.getElementById("ventrm").style.display="none";
     }
 </script>
+ 
+
+
+
+
+ <!--info ma-->
+
+ <div class="ventana" id="ventma">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarma()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirma(){
+      document.getElementById("ventma").style.display="block";
+  }
+  function cerrarma(){
+      document.getElementById("ventma").style.display="none";
+  }
+</script>
+
+
+ <!--info rv-->
+ <div class="ventana" id="ventrv">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarrv()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirrv(){
+      document.getElementById("ventrv").style.display="block";
+  }
+  function cerrarrv(){
+      document.getElementById("ventrv").style.display="none";
+  }
+</script>
+
+
+ <!--info le-->
+ <div class="ventana" id="ventle">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarle()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirle(){
+      document.getElementById("ventle").style.display="block";
+  }
+  function cerrarle(){
+      document.getElementById("ventle").style.display="none";
+  }
+</script>
+
+
+
+
+ <!--info li-->
+ <div class="ventana" id="ventli">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarli()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirli(){
+      document.getElementById("ventli").style.display="block";
+  }
+  function cerrarli(){
+      document.getElementById("ventli").style.display="none";
+  }
+</script>
+
+
+
+
+ <!--info bi-->
+ <div class="ventana" id="ventbi">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarbi()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirbi(){
+      document.getElementById("ventbi").style.display="block";
+  }
+  function cerrarbi(){
+      document.getElementById("ventbi").style.display="none";
+  }
+</script>
+
+
+
+
+ <!--info fi-->
+ <div class="ventana" id="ventfi">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarfi()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirfi(){
+      document.getElementById("ventfi").style.display="block";
+  }
+  function cerrarfi(){
+      document.getElementById("ventfi").style.display="none";
+  }
+</script>
+
+
+
+
+ <!--info qu-->
+ <div class="ventana" id="ventqu">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarqu()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirqu(){
+      document.getElementById("ventqu").style.display="block";
+  }
+  function cerrarqu(){
+      document.getElementById("ventqu").style.display="none";
+  }
+</script>
+
+
+
+ <!--info fil-->
+ <div class="ventana" id="ventfil">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarfil()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirfil(){
+      document.getElementById("ventfil").style.display="block";
+  }
+  function cerrarfil(){
+      document.getElementById("ventfil").style.display="none";
+  }
+</script>
+
+
+
+
+ <!--info hi-->
+ <div class="ventana" id="venthi">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarhi()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirhi(){
+      document.getElementById("venthi").style.display="block";
+  }
+  function cerrarhi(){
+      document.getElementById("venthi").style.display="none";
+  }
+</script>
+
+
+
+
+ <!--info ec-->
+ <div class="ventana" id="ventec">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarec()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirec(){
+      document.getElementById("ventec").style.display="block";
+  }
+  function cerrarec(){
+      document.getElementById("ventec").style.display="none";
+  }
+</script>
+
+
+
+ <!--info ci-->
+ <div class="ventana" id="ventci">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarci()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirci(){
+      document.getElementById("ventci").style.display="block";
+  }
+  function cerrarci(){
+      document.getElementById("ventci").style.display="none";
+  }
+</script>
+
+
+
+ <!--info ps-->
+ <div class="ventana" id="ventps">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarps()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirps(){
+      document.getElementById("ventps").style.display="block";
+  }
+  function cerrarps(){
+      document.getElementById("ventps").style.display="none";
+  }
+</script>
+
+
+
+
+
+ <!--info eco-->
+ <div class="ventana" id="venteco">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrareco()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrireco(){
+      document.getElementById("venteco").style.display="block";
+  }
+  function cerrareco(){
+      document.getElementById("venteco").style.display="none";
+  }
+</script>
+
+
+
+
+
+
+
+ <!--info ge-->
+
+ <div class="ventana" id="ventge">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarge()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Cada tema del curso Incluye:</li>
+      <li>>Video de cada tema</li>
+      <li>>Teoria de cada tema</li>
+      <li>>Practica de cada tema</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirge(){
+      document.getElementById("ventge").style.display="block";
+  }
+  function cerrarge(){
+      document.getElementById("ventge").style.display="none";
+  }
+</script>
+
+
+
+ <!--info co-->
+ <div class="ventana" id="ventco">
+    <div id="cerrar" class="cerrar"><a href="javascript:cerrarco()"><img src="assets/images/cerrar.png" width="9%"></a></div>
+  <p class="incluye"></p>
+  <ul class="letras-pago">
+      <li class="costo">S/10 al mes</li>
+      <br>
+      <li>Pago mensual</li>
+      <br>
+ 
+      <li>Incluye:</li>
+      <li>>50 textos</li>
+      <li>>Ejercicios</li>
+      <li>>Practica de cada texto</li>
+      <li>>Solucionario explicado de practicas</li>
+      <br>
+      <li>>Estudia a tu ritmo</li>
+      <br>
+  </ul>
+  <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="VNRFPJPAT4S28">
+          <input type="image" height="47%" width="47%" src="assets/images/paypal.jpg"  name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+          
+          <img class="btn-pago"   src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" >
+          <a href="https://wa.me/51943243738?text=QUIERO%20PAGAR%20EL%20%20CURSO%20CON%20PAYPAL"><img class="btn-pago" src="assets/images/yape.jpg" height="47%" width="47%"></a>
+      </form>
+     
+  </div>
+</div>
+
+<script>
+  function abrirco(){
+      document.getElementById("ventco").style.display="block";
+  }
+  function cerrarco(){
+      document.getElementById("ventco").style.display="none";
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,9 +852,12 @@
                 <h1 class="mt-5">Estudia desde cero hasta el nivel avanzado</h1>
                 <br><br><br>
                 <p></p>
+            
+              <a  href="javascript:abrirtodo()">
                 <div class="wrap">
-                    <button class="button"><a class="botcolor" href="#" >OBTENER CURSOS</a></button>
+                    <button class="button"><p class="btn-cen"  >OBTENER CURSOS</p></button>
                  </div>
+              </a>
                 <div class="wrap">  
                   <li >
                     <img class="nav-linkimg" src="assets/images/logo.png" width="40%"></img>
@@ -133,7 +883,7 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="javascript:abrir()">
+                            <a href="javascript:abrirrm()">
                                 <h2>Razonamiento matematico</h2>
                                 <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
@@ -151,12 +901,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirma()">
                                 <h2>Matematica</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-02.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 02">
                     </div>
@@ -164,12 +913,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirrv()">
                                 <h2>Razonamiento verbal</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-03.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 03">
                     </div>
@@ -185,12 +933,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirle()">
                                 <h2>Lenguaje</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-04.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 01">
                     </div>
@@ -198,12 +945,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirli()">
                                 <h2>Literatura</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-05.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 02">
                     </div>
@@ -211,12 +957,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirbi()">
                                 <h2>Biologia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-06.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 03">
                     </div>
@@ -232,12 +977,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirfi()">
                                 <h2>Fisica</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-07.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 01">
                     </div>
@@ -245,12 +989,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirqu()">
                                 <h2>Quimica</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-08.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 02">
                     </div>
@@ -258,12 +1001,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirfil()">
                                 <h2>Filosofia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-09.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 03">
                     </div>
@@ -279,12 +1021,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirhi()">
                                 <h2>Historia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-10.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 01">
                     </div>
@@ -292,12 +1033,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirge()">
                                 <h2>Geografia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-11.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 02">
                     </div>
@@ -305,12 +1045,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirec()">
                                 <h2>Economia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-12.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 03">
                     </div>
@@ -327,12 +1066,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirci()">
                                 <h2>Civica</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-13.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 01">
                     </div>
@@ -340,12 +1078,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirps()">
                                 <h2>Psicologia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-14.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 02">
                     </div>
@@ -353,12 +1090,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrireco()">
                                 <h2>Ecologia</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-15.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 03">
                     </div>
@@ -375,12 +1111,10 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirco()">
                                 <h2></h2>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-17.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 01">
                     </div>
@@ -388,12 +1122,11 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirco()">
                                 <h2>Comprension lectora</h2>
+                                <li class="botonl"><b class="btn-info">INFO</b></li>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-16.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 02">
                     </div>
@@ -401,12 +1134,10 @@
                 <div class="col-md-6">
                     <div class="portfolio-container">
                         <div class="portfolio-details">
-                            <a href="#">
+                             <a href="javascript:abrirrm()">
                                 <h2></h2>
                             </a>
-                            <a href="#">
-                                <p></p>
-                            </a>
+                            
                         </div>
                         <img src="assets/images/portfolio-18.jpg" width="100%" height="100%"  class="img-fluid" alt="Portfolio 03">
                     </div>
@@ -476,16 +1207,16 @@
                                         <img src="assets/images/member-01.jpg" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-md-9 col-9">
-                                        <h6>Marissa Mayer</h6>
-                                        <span>Yahoo CEO</span>
+                                        <h6>Marissa Rodríguez A.</h6>
+                                        <span></span>
                                     </div>
-                                </div>assets/images/member-03.jpg
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
+                            <p>Confío en Aprender++ porque sé que hay una dedicación para que el contenido que se le da a los estudiantes sea el mejor ademas de ser muy economico.</p>
                            
                             <div class="testimonial-user">
                                 <div class="row">
@@ -493,8 +1224,8 @@
                                         <img src="assets/images/member-02.jpg" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-md-9 col-9">
-                                        <h6>Marry Barra</h6>
-                                        <span>General Motors CEO</span>
+                                        <h6>Melany Espinoza Q.</h6>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
@@ -502,7 +1233,7 @@
                     </div>
                     <div class="carousel-item active">
                         <div class="carousel-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.
+                            <p>Si eres estudiante preuniversitario y estudias sin dejar de practicar puedes conseguir tu ingreso y los cursos de Aprender++ son la mejor ayuda.
                             </p>
                            
                             <div class="testimonial-user">
@@ -511,8 +1242,8 @@
                                         <img src="assets/images/member-03.jpg" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-md-9 col-9">
-                                        <h6>Marissa Mayer</h6>
-                                        <span>Yahoo CEO</span>
+                                        <h6>Juan Chávez H.</h6>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
@@ -520,7 +1251,7 @@
                     </div>
                     <div class="carousel-item active">
                         <div class="carousel-container">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.
+                            <p>Logre mi ingreso sin necesidad de ir a una academia ,gracias a los materiales y cursos de Aprender++.
                             </p>
                            
                         </div>

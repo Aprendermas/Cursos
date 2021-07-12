@@ -18,11 +18,8 @@
     color: rgb(0, 0, 0);
   font-size: 500%;
 }
-.botcolor{
-    color:rgb(0, 255, 21);
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-        
-}
+
+
 
 body {
     font-family: 'Titillium Web', sans-serif;
@@ -171,7 +168,7 @@ section {
     right: 15%;
     display: none;
 }
-#cerrar{
+.cerrar{
     
     color: white;
     top:0%;
@@ -220,16 +217,21 @@ section {
     align-items: center;
     justify-content: center;
   }
-  
+ 
+  .btn-cen{
+    color:rgb(31, 243, 49);
+    text-shadow: -3px -3px 3px #000, 3px 3px 3px #000, -3px 3px 3px #000, 3px -3px 3px #000;
+       font-size: 40px;
+  }
   .button {
     min-width: 400px;
     min-height: 100px;
     font-family: 'bold','Nunito', sans-serif;
-    font-size: 40px;
+    font-size: 90px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
-    color: #111118;
+   
     background: #000000;
   background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
     border: none;
@@ -247,7 +249,7 @@ section {
     border-radius: 1000px;
     min-width: calc(400px + 12px);
     min-height: calc(100px + 12px);
-    border: 6px solid #00FFCB;
+    border: 6px solid #3cff00;
     box-shadow: 0 0 60px rgba(0,255,203,.64);
     position: absolute;
     top: 50%;
