@@ -156,18 +156,19 @@ section {
 /*ventanas*/
 .ventana{
     background:rgb(34, 44, 100);
-    width: 75%;
-    height: 90%;
+ 
     color:rgb(255, 255, 255);
-    font-size: 130%;
+    font-size: 145%;
   
     padding: 1% 5%;
     border-radius: 5%;
+    border: 2px solid chartreuse;
     position: fixed;
-    left: 15%;
+    left: 10%;
     z-index: 3;
     top:5% ;
     left: 15%;
+    right: 15%;
     display: none;
 }
 #cerrar{
@@ -194,7 +195,7 @@ section {
 }
 .costo{
     color:rgb(172, 158, 158);
-    font-size: 190%;
+    font-size: 200%;
 }
 
 
