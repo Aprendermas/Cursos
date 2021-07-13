@@ -227,13 +227,9 @@ section {
 .btn-pago{
     display: inline-flex;
     
+    
 }
-.btn-pago:hover{
-   
-    border-radius:4%;
-    border: 2px solid chartreuse;
-   
-}
+
 
 .letras-pago{
     list-style:none
@@ -259,6 +255,9 @@ section {
     border-radius:4%;
     border: 2px solid rgb(204, 200, 193);
     box-shadow:5px 5px 5px rgb(106, 150, 163);
+}
+b{
+    color: #00FFCB;
 }
 /*boton ir todo*/
 .wrap {
@@ -355,7 +354,7 @@ section {
 //////////////*/
 .nav-link-mas{
     
-    color: rgb(0, 0, 0);
+    color: rgb(21, 15, 58);
     font-size: 200%;
     
     border-radius:4%;
